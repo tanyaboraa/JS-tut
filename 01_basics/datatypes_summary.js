@@ -25,3 +25,23 @@ const myfunction=function(){
     console.log("hello world")
 }
 
+//*********************************** 
+//Stack (Primitive) (copy of variable), Heap (Non-Primitive ) (reference of og value)
+
+let myName= "Tanya Bora"
+let anotherName= myName
+anotherName="Neena Bora"
+console.log(anotherName)
+console.log(myName)
+
+let user= {
+    email: "user@gmail.com",
+    upi:"user@upi",
+
+}
+
+let userTwo=user
+userTwo.email="tanya@gmail.com"
+
+console.log(user.email);
+console.log(userTwo.email);
