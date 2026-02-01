@@ -18,4 +18,5 @@
 
 //=== strictly check(with datatypes)
 
-console.log("2"===2)
+console.log("2"===2) // false
+
